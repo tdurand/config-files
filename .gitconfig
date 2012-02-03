@@ -1,0 +1,42 @@
+[color]
+  branch = auto
+  diff = auto
+  status = auto
+[color "branch"]
+  current = yellow reverse
+  local = yellow
+  remote = green
+[color "diff"]
+  meta = yellow bold
+  frag = magenta bold
+  old = red bold
+  new = green bold
+[color "status"]
+  added = yellow
+  changed = green
+  untracked = cyan
+
+
+[user]
+	name = Thibault DURAND
+	email = tibo.durand@gmail.com
+
+[alias]
+  d = diff
+  dc = diff --cached
+  l = log
+  ll = log --pretty=oneline --abbrev-commit
+  ls = log --stat
+  lp = log -p
+  s = status
+  suno = status -uno
+  omi = push --force
+  co = checkout
+  newremote = !sh -c 'git push origin origin:refs/heads/$1'
+  deleteremote = !sh -c 'git push origin :refs/heads/$1'
+[core]
+	editor = nano
+	excludesfile = /Users/tdurand/.gitignore_global
+[github]
+	user = tdurand
+	token = 41c7ba0ce68ddcc961019e9e451c545c
