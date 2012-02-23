@@ -35,7 +35,7 @@
   newremote = !sh -c 'git push origin origin:refs/heads/$1'
   deleteremote = !sh -c 'git push origin :refs/heads/$1'
 [core]
-	editor = nano
+	editor = vim
 	excludesfile = /Users/tdurand/.gitignore_global
 [github]
 	user = tdurand
