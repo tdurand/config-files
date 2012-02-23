@@ -9,5 +9,6 @@ export PYTHONPATH=/Library/Frameworks/Mapnik.framework/Python:$PYTHONPATH
 alias kedit="open -a 'Komodo Edit'"
 alias stext="open -a 'Sublime Text 2'"
 alias vim="mvim -v"
+alias server="open http://localhost:8080/ && python -m SimpleHTTPServer 8080"
 
 [[ -s "/Users/tdurand/.rvm/scripts/rvm" ]] && source "/Users/tdurand/.rvm/scripts/rvm"
