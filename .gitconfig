@@ -40,3 +40,5 @@
 [github]
 	user = tdurand
 	token = 41c7ba0ce68ddcc961019e9e451c545c
+[branch]
+	autosetuprebase = always
