@@ -2,6 +2,8 @@
 export SCALA_HOME=/usr/local/Cellar/scala/2.9.1/libexec
 export PATH=/Users/tdurand/Web/play/:$PATH
 export PATH=/Users/tdurand/Tools/movgrab/:$PATH
+export PATH=/Users/tdurand/Tools/android-sdk-macosx/tools:$PATH
+export PATH=/Users/tdurand/Tools/android-sdk-macosx/platform-tools:$PATH
 # Settings for Mapnik.framework Installer to enable Mapnik programs and python bindings
 export PATH=/Library/Frameworks/Mapnik.framework/Programs:$PATH
 export PATH=/Users/tdurand/Tools:$PATH
